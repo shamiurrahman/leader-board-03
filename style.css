@@ -96,6 +96,13 @@ hr{
 
  /* courses */
 
+ .course{
+    border: 1px solid rgb(243, 243, 243);
+    padding: 10px;
+    box-shadow: 2px 2px 2px 2px #a8a8a8;
+    border-radius: 3%;
+ }
+
  .courses{
      display: grid;
      grid-template-columns: repeat(3, 1fr );
@@ -128,6 +135,7 @@ hr{
      padding: 15px 10px 15px 10px;
      background-color: #FFE4E8;
      color: #FF4A60;
+     border-radius: 20%;
  }
 
  .fa-clock{
